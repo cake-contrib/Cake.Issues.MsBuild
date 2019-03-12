@@ -1,4 +1,4 @@
-# MsBuild Issue Provider for Cake.Issues Addin
+# MsBuild Issue Provider for Cake.Issues Addin Test
 
 This addin for the Cake Build Automation System allows you to read issues logged as warnings by MsBuild
 using the [Cake Issues addin](https://github.com/cake-contrib/Cake.Issues).
