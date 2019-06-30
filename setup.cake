@@ -10,7 +10,7 @@ BuildParameters.SetParameters(
     repositoryOwner: "cake-contrib",
     repositoryName: "Cake.Issues.MsBuild",
     appVeyorAccountName: "cakecontrib",
-    shouldRunCodecov: false);
+    shouldRunCodecov: true);
 
 BuildParameters.PrintParameters(Context);
 
@@ -20,5 +20,9 @@ ToolSettings.SetToolSettings(
     testCoverageFilter: "+[*]* -[xunit.*]* -[Cake.Core]* -[Cake.Testing]* -[*.Tests]* -[Cake.Issues]* -[Cake.Issues.Testing]* -[Shouldly]* -[Microsoft.Build*]* -[StructuredLogger]*",
     testCoverageExcludeByAttribute: "*.ExcludeFromCodeCoverage*",
     testCoverageExcludeByFile: "*/*Designer.cs;*/*.g.cs;*/*.g.i.cs");
+
+BuildParameters.Tasks.UploadCoverageReportTask = Task("Buildserver")
+  .IsDependentOn("Default")
+  .IsDependentOn("Upload-Coverage-Report");
 
 Build.RunDotNetCore();
