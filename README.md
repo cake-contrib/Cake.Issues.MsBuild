@@ -3,7 +3,7 @@
 This addin for the Cake Build Automation System allows you to read issues logged as warnings by MsBuild
 using the [Cake Issues addin](https://github.com/cake-contrib/Cake.Issues).
 
-For more information about this add-in see the [Cake.Issues website](https://cake-contrib.github.io/Cake.Issues.Website)
+For more information about this add-in see the [Cake.Issues website](https://cakeissues.net)
 and for general information about the Cake build automation system see the [Cake website](http://cakebuild.net)
 
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/cake-contrib/Cake.Issues.MsBuild/blob/feature/build/LICENSE)
@@ -20,7 +20,7 @@ and for general information about the Cake build automation system see the [Cake
 | | Develop | Master |
 |:--:|:--:|:--:|
 |AppVeyor Windows|[![Build status](https://ci.appveyor.com/api/projects/status/7e9bedtgp9m30p4m/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-msbuild/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/7e9bedtgp9m30p4m/branch/master?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-msbuild/branch/master)|
-|Azure DevOps Windows|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_apis/build/status/cake-contrib.Cake.Issues.MsBuild?branchName=develop&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_build/latest?definitionId=6?branchName=develop)|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_apis/build/status/cake-contrib.Cake.Issues.MsBuild?branchName=master&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_build/latest?definitionId=6?branchName=master)|
+|Azure DevOps Windows|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_apis/build/status/cake-contrib.Cake.Issues.MsBuild?branchName=develop&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_build/latest?definitionId=6?branchName=develop)|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_apis/build/status/cake-contrib.Cake.Issues.MsBuild?branchName=master&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_build/latest?definitionId=6&branchName=master)|
 
 
 |Develop|Master|
@@ -33,7 +33,7 @@ and for general information about the Cake build automation system see the [Cake
 
 ## Quick Links
 
-- [Documentation](https://cake-contrib.github.io/Cake.Issues.Website)
+- [Documentation](https://cakeissues.net)
 
 ## Chat Room
 
