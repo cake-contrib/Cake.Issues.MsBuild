@@ -10,6 +10,7 @@ BuildParameters.SetParameters(
     repositoryOwner: "cake-contrib",
     repositoryName: "Cake.Issues.MsBuild",
     appVeyorAccountName: "cakecontrib",
+    shouldGenerateDocumentation: false,
     shouldRunCodecov: false);
 
 BuildParameters.PrintParameters(Context);
