@@ -11,6 +11,7 @@ BuildParameters.SetParameters(
     repositoryName: "Cake.Issues.MsBuild",
     appVeyorAccountName: "cakecontrib",
     shouldGenerateDocumentation: false,
+    shouldPublishMyGet: false,
     shouldRunCodecov: false,
     shouldRunGitVersion: true);
 
