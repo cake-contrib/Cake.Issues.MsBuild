@@ -10,6 +10,7 @@ BuildParameters.SetParameters(
     repositoryOwner: "cake-contrib",
     repositoryName: "Cake.Issues.MsBuild",
     appVeyorAccountName: "cakecontrib",
+    shouldRunCoveralls: false, // Disabled because it's currently failing
     shouldGenerateDocumentation: false);
 
 BuildParameters.PrintParameters(Context);
