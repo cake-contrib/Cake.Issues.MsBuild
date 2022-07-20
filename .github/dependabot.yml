@@ -19,6 +19,3 @@ updates:
   - dependency-name: Cake.Issues.Testing
     versions:
     - "> 1.0.0, < 2"
-  - dependency-name: MSBuild.StructuredLogger
-    versions:
-    - "> 2.0.174"
