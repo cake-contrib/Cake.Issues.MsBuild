@@ -22,10 +22,6 @@ and for general information about the Cake build automation system see the [Cake
 |AppVeyor Windows|[![Build status](https://ci.appveyor.com/api/projects/status/7e9bedtgp9m30p4m/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-msbuild/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/7e9bedtgp9m30p4m/branch/master?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-msbuild/branch/master)|
 |Azure DevOps Windows|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_apis/build/status/cake-contrib.Cake.Issues.MsBuild?branchName=develop&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_build/latest?definitionId=6?branchName=develop)|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_apis/build/status/cake-contrib.Cake.Issues.MsBuild?branchName=master&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Issues.MsBuild/_build/latest?definitionId=6&branchName=master)|
 
-|Develop|Master|
-|:--:|:--:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/7e9bedtgp9m30p4m/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-msbuild/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/7e9bedtgp9m30p4m/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-issues-msbuild/branch/master)|
-
 ## Code Coverage
 
 [![Coverage Status](https://coveralls.io/repos/github/cake-contrib/Cake.Issues.MsBuild/badge.svg?branch=develop)](https://coveralls.io/github/cake-contrib/Cake.Issues.MsBuild?branch=develop)
