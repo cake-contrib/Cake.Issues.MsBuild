@@ -14,5 +14,18 @@ jobs:
   pool:
     vmImage: 'windows-2022'
   steps:
+  # .NET 5 required for GitVersion
+  - task: UseDotNet@2
+    inputs:
+      version: '5.x'
+    displayName: 'Install .NET 5'
+  - task: UseDotNet@2
+    inputs:
+      version: '6.x'
+    displayName: 'Install .NET 6'
+  - task: UseDotNet@2
+    inputs:
+      version: '7.x'
+    displayName: 'Install .NET 7'
   - powershell: ./build.ps1
     displayName: 'Cake Build'
