@@ -54,14 +54,14 @@
                 }
 
                 // Read affected project from the warning or error.
-                if (!this.TryGetProject(element, repositorySettings, out string projectFileRelativePath))
+                if (!this.TryGetProject(element, repositorySettings, out var projectFileRelativePath))
                 {
                     this.Log.Information("Skip element since project could not be parsed");
                     continue;
                 }
 
                 // Read affected file from the warning or error.
-                if (!this.TryGetFile(element, repositorySettings, out string fileName))
+                if (!this.TryGetFile(element, repositorySettings, out var fileName))
                 {
                     this.Log.Information("Skip element since file path could not be parsed");
                     continue;
@@ -82,7 +82,7 @@
                 }
 
                 // Read rule code from the warning or error.
-                if (!this.TryGetRule(element, out string rule))
+                if (!this.TryGetRule(element, out var rule))
                 {
                     this.Log.Information("Skip element since rule could not be parsed");
                     continue;
