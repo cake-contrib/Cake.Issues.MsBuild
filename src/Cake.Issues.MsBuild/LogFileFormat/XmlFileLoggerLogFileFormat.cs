@@ -10,17 +10,9 @@
     /// <summary>
     /// MsBuild log format as written by the <c>XmlFileLogger</c> class from MSBuild Extension Pack.
     /// </summary>
-    internal class XmlFileLoggerLogFileFormat : BaseMsBuildLogFileFormat
+    /// <param name="log">The Cake log instance.</param>
+    internal class XmlFileLoggerLogFileFormat(ICakeLog log) : BaseMsBuildLogFileFormat(log)
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="XmlFileLoggerLogFileFormat"/> class.
-        /// </summary>
-        /// <param name="log">The Cake log instance.</param>
-        public XmlFileLoggerLogFileFormat(ICakeLog log)
-            : base(log)
-        {
-        }
-
         /// <inheritdoc/>
         public override IEnumerable<IIssue> ReadIssues(
             MsBuildIssuesProvider issueProvider,
