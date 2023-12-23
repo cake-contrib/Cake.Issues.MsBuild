@@ -27,5 +27,9 @@ jobs:
     inputs:
       version: '7.x'
     displayName: 'Install .NET 7'
+  - task: UseDotNet@2
+    inputs:
+      version: '8.x'
+    displayName: 'Install .NET 8'
   - powershell: ./build.ps1
     displayName: 'Cake Build'
